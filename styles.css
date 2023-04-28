@@ -1,0 +1,356 @@
+.nav p{
+    display: inline-flex;
+    padding: 32px;
+    color: wheat;
+}
+.nav{
+    margin-left: 30%;
+}
+
+.table1 td  {
+   
+    
+    margin-left: 7%;
+    border-style: hidden;
+    width: 24%; height: 100%; 
+    padding: 23px;
+            
+}
+.div1{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+
+#image{
+    width: 550px;
+    height: 350px;
+    margin-top: -65%;
+}
+
+#image2{
+    border-style: solid;
+    width: 150px;
+    height: 100px;
+}
+
+.maindiv5{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+#home{
+    color: rgb(38, 230, 31);
+}
+
+
+#trust{
+    font-size: 3.5em ;
+    color: wheat;
+}
+
+#secure{
+    color: rgb(17, 223, 154);
+}
+
+#crypto{
+    color: rgb(101, 224, 198);
+}
+
+#swap{
+    font-weight: 600;
+    color: wheat;
+}
+
+.body{
+   background-color: rgb(10, 10, 10);
+   color: white;
+   margin-left: 7%;
+}
+
+#button1{
+    background-color: greenyellow;
+    height: 40px;
+     width: 120px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+#button2{
+    height: 44px;
+    width: 130px;
+    border-color: greenyellow;
+    background-color: rgb(194, 185, 185);
+    border-radius: 10px;
+    opacity: 200;
+
+}
+
+.logos{
+    background-color: greenyellow;
+    height: 50px;
+    height: 70px;
+}
+
+.smalldiv1{
+    border-style: solid;
+    width: 220px;
+    text-align: center;
+    height: 180px;
+    border-radius: 5%;
+}
+
+.smalldiv2{
+    border-style: solid;
+    width: 220px;
+    text-align: center;
+    height: 180px;
+    border-radius: 5%;
+}
+.smalldiv3{
+    border-style: solid;
+    width: 220px;
+    text-align: center;
+    height: 180px;
+    border-radius: 5%;
+}
+
+#button3{
+    background-color: greenyellow;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.maindiv2{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+}
+
+#button4{
+    border-color: greenyellow;
+    color: greenyellow;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: inherit;
+    font-weight: bold;
+}
+
+#smalldiv4{
+    border-style: solid;
+    width: 190px;
+    height: 300px;
+   background-image: linear-gradient(to top, rgb(130, 173, 238),rgb(156, 156, 231), rgb(20, 81, 247));
+   border-radius: 5%;
+}
+#smalldiv4 p{
+    margin-left: 12%;
+    position: relative;
+    top: 170px;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+#amount{
+    font-size: 2.2em;
+    
+}
+
+#smalldiv5{
+    border-style: solid;
+    width: 190px;
+    height: 300px;
+   background-image: linear-gradient(to top, rgb(207, 164, 207),rgb(165, 15, 224), rgb(247, 20, 247));
+   border-radius: 5%;
+}
+
+#smalldiv5 p{
+    margin-left: 12%;
+    position: relative;
+    top: 170px;
+    font-weight: bold;
+
+}
+#count{
+    font-size: 0.5em;
+}
+
+.maindiv3{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+}
+
+#empty{
+    border-style: solid;
+    width:100px;
+    border-radius: 15px;
+  
+}
+
+.flex{
+    padding: 3%;     
+    display: flex;
+    
+}
+
+#email1{
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#button6{
+    background-color: greenyellow;
+    width: 100px;
+    height: 50px;
+    border-radius: 8%;
+    font-weight: bold;
+}
+
+.ready{
+    border-style: hidden;
+    width: 900px;
+    height: 250px;
+    text-align: center;
+    margin-left: 9%;
+    background-color: rgb(78, 68, 68);
+    opacity: 0.7;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+
+}
+
+#terms{
+    padding: 500px;
+}
+
+#email2{
+    height: 30px;
+    border-radius: 50px;
+    width: 200px;
+    background-color: rgb(150, 209, 209);
+    font-weight: bold;
+    color: antiquewhite;
+    text-align: center;
+}
+
+#send{
+    height: 30px;
+    width: 60px;
+    border-radius: 12px;
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+#terms{
+    padding: 63px;
+}
+
+
+
+
+@media(max-width:800px) {
+   #trust{
+    font-size: 0.7em;
+
+   }
+   .div1{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: -5%;
+   }
+
+#image{
+    width: 150px;
+    height: 100px;
+}
+#swap{
+    font-size: 0.8em;
+}
+#swap2{
+    width: 170px;
+}
+
+.logos{
+    width: 200px;
+    margin-left: -5%;
+}
+
+#buy{
+    font-size: 0.7em;
+    margin-left: -5%;
+    
+}
+
+.table {
+    margin-left: -10%;
+    width: 10px;
+    font-size: 0.5em;
+}
+.maindiv2{
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+    margin-left: -5%;
+}
+
+#best{
+    font-size: 0.5em;
+    margin-left: -2%;
+}
+
+.maindiv3{
+    display: grid;
+    margin-left: -5%;
+    grid-template-columns: repeat(1,3fr);
+}
+
+#invest{
+    font-size: 0.7em;
+
+}
+#we{
+    font-size: 0.6em;
+    margin-left: -7% ;
+}
+
+.maindiv5{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    margin-left: -8%;
+}
+
+#flex, h3,p{
+    font-size: 0.5em;
+
+}
+
+#build{
+    font-size: 0.6em;
+    margin-left: -6%;
+}
+.ready{
+    margin-left: -5%;
+    text-align: left;
+
+}
+#new{
+    font-size: 0.4em;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(1,4fr);
+
+}
+
+ } 
+
+
+
+   
